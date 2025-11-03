@@ -15,7 +15,7 @@ const AddingTaskBtn = () => {
       hover:shadow-lg 
       transition-transform
       `}>
-        <img src="public/assets/add.png" className="h-6 w-6" alt="Add" />
+        <img src="assets/add.png" className="h-6 w-6" alt="Add" />
       </button>
     </div>
   )

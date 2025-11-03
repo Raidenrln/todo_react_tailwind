@@ -5,7 +5,7 @@ import TaskCategory from "./components/TaskCategory"
 import TopSection from "./components/TopSection"
 const App = () => {
   return (
-    <div className="flex flex-col gap-2 p-2.5">
+    <div className="flex flex-col gap-2 p-2.5 h-auto">
       <TopSection/>
       <AllTaskSection/>
       <TaskCategory/>

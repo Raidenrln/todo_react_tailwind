@@ -4,7 +4,7 @@ const TopSection = () => {
       <div className="flex flex-row w-full items-center gap-2 h-[50] mt-2.5 mb-2.5">
         <img 
         className="h-8" 
-        src={"src/assets/clover.png"} 
+        src="src/assets/clover.png" 
         alt="logo"/>
         <h1 className="text-2xl text-(--primary-color-font) font-bold">
           TO-DO

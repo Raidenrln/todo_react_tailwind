@@ -26,16 +26,12 @@ const TaskCategory = () => {
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mouseup", handleMouseUp);
   };
-
   return (
     <div>
       <ul
         ref={scrollRef}
         onMouseDown={handleMouseDown}
-        className="flex flex-row gap-3 font-bold text-(--primary-color-font) 
-                   overflow-x-scroll overflow-y-hidden cursor-grab select-none 
-                   custom-scroll"
-      >
+        className="flex flex-row gap-3 font-bold text-(--primary-color-font) overflow-x-scroll overflow-y-hidden cursor-grab select-none custom-scroll">
         <li className="before:content-['•'] before:mr-2 before:text-(--primary-color-font)">
           All
         </li>
